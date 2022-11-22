@@ -14,4 +14,9 @@ describe('Tesla.com automation testing',() => {
 
     })
 
+    it ('Compare Test', () =>{
+        onModelSPage.urlVerification()
+        onModelSPage.modelScomparePage()
+    })
+
 })

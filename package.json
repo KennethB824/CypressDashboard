@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run -b chrome --headless --spec 'cypress/e2e/Day1/checkboxes.cy.js'",
-    "test1": "cypress run -b chrome --headless --spec 'cypress/e2e/Day1/checkboxes.cy.js'"
+    "teslaModelS":"npx cypress run --record --key 0d28e040-189a-4327-9a4d-5d5fcd58ebbb --spec 'cypress/e2e/Day3/tesla.cy.js'"
   },
   "author": "",
   "license": "ISC",
